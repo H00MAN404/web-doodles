@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #102238;
+}
+
+.heading {
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(55, 49, 85, 0.664);
+  width: 100%;
+  text-align: center;
+  text-align: top;
+  text-decoration: none;
+}
+
+.cal {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  position: relative;
+  width: 200px;
+  background: white;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0009);
+
+
+}
+
+.cal #monthName {
+  position: relative;
+  padding: 5px;
+  background-color: #ff6366;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cal #dayName {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #292929;
+}
+
+.cal #dayNumber {
+  font-display: 900;
+  margin-top: 0px;
+  font-size: 80px;
+  font-weight: 900;
+  color: #333;
+
+}
+
+.cal #year {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #292929;
+  margin-bottom: 5px;
+}
